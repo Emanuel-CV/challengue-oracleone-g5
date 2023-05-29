@@ -195,8 +195,7 @@ html, body{
 @media screen and (max-width:600px){
     .boton-copiar{
         position: absolute;
-        left:  120px;
-        margin: 0 auto;
+        left:  100px;
     }
 }
 @media screen and (max-width:1000px){
@@ -233,7 +232,7 @@ html, body{
         left: 10px;
         width: auto;
         margin: 0 auto;
-        margin-right: ;
+        margin-right: 50px;
     }
 
     .encriptar, .desencriptar{
@@ -287,7 +286,7 @@ html, body{
         left: 10px;
         width: auto;
         margin: 0 auto;
-        margin-right: ;
+        margin-right: 50px;
     }
 
     .encriptar, .desencriptar{
