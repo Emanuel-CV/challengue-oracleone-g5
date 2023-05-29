@@ -192,7 +192,13 @@ html, body{
     position: absolute;
     bottom: 10px;
 }
-
+@media screen and (max-width:600px){
+    .boton-copiar{
+        position: absolute;
+        left:  120px;
+        margin: 0 auto;
+    }
+}
 @media screen and (max-width:1000px){
 
     html, body{
