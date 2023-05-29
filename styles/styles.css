@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Playfair Display', serif;
+    
+}
+
+html, body{
+    overflow: hidden;
+}
+/* Header */
+
+.contenedor{
+    width: 100%;
+    background-color: #D4FAFC;
+    padding-bottom: 34px;
+}
+
+.imagen-contenedor{
+    margin: 30px 0 15px 50px;
+    width: 100px;
+}
+
+.contenedor h1{
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    right: 35%;
+    top: 40px;
+    color: #0B2447;
+}
+
+.nombre{
+    font-size: 70px;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: end;
+    display: inline-block;
+    position: absolute;
+    left: 80%;
+    margin: 15px 0 0 auto;
+}
+
+.nombre p span:first-child{
+    color: #088395;
+    display: block;
+    position: absolute;
+}
+
+.nombre p span:nth-child(2){
+    color: #05BFDB;
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 33px;
+}
+
+.nombre p span:nth-child(3){
+    color: #00FFCA;
+    display: block;
+    position: absolute;
+    left: 75px;
+}
+
+.main{
+    background-color: #D4FAFC;
+}
+
+.formulario{
+    padding: 10px;
+    width: 60%;
+    height: 570px;
+    margin-left: 0;
+}
+
+.formulario textarea{
+    margin: 30px 0 0 30px;
+    height: 475px;
+    width: 90%;
+    resize: none;
+    border: none;
+    outline: 0 none;
+    background-color: #D4FAFC;
+    opacity: 100%;
+    font-size: 25px;
+    color: #0B2447;
+    background-color: #D4FAFC;
+    display: inline-block;
+    text-transform: lowercase;
+}
+
+.botones{
+    margin-top: 3px;
+    width: 46.8%;
+    position: relative;
+    left: 210px;
+}
+
+.encriptar{
+    background-color: #0A3871;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    width: 200px;
+    transition: 1s all;
+    margin-right: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.encriptar:hover{
+    transform: scale(1.2);
+}
+
+.desencriptar{
+    background-color: #D8DFE8;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    width: 200px;
+    margin-left: 20px;
+    transition: 1s all;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.desencriptar:hover{
+    transform: scale(1.2);
+}
+
+.informacion{
+    font-size: 14px;
+    display: inline-block;
+    position: absolute;
+    left: 730px;
+    bottom: 25px;
+}
+.rectangulo{
+    width: 30%;
+    height: 570px;
+    background-color: #A5D7E8;
+    position: relative;
+    left: 65%;
+    bottom: 594px;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 15px;
+}
+
+.mensaje{
+    background-color: #A5D7E8;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    height: 450px;
+    width: 50%;
+    outline: none;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.rectangulo p{
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.boton-copiar{
+    background-color: #D8DFE8;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    width: 200px;
+    transition: 1s all;
+    position: absolute;
+    right: 150px;
+    bottom: 17px;
+    cursor: pointer;
+}
+
+.boton-copiar:hover{
+    transform: scale(1.2);
+}
+
+.emanuel{
+    position: absolute;
+    bottom: 10px;
+}
+
+@media screen and (max-width:1000px){
+
+    html, body{
+        overflow: visible;
+    }
+    .contenedor h1{
+        opacity: 0;
+    }
+
+    .nombre{
+        left: 200px;
+    }
+
+    .formulario{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .informacion{
+        position: absolute;
+        left: 10px;
+        bottom: 140px;
+    }
+    .emanuel{
+        position: absolute;
+        left: 10px;
+        bottom: 125px;
+    }
+    .botones{
+        position: absolute;
+        left: 10px;
+        width: auto;
+        margin: 0 auto;
+        margin-right: ;
+    }
+
+    .encriptar, .desencriptar{
+        width: auto;
+    }
+
+    .rectangulo{
+        display: inline-block;
+        position: absolute;
+        top: 753px;
+        left: 0;
+        width: 99%;
+    }
+
+    .boton-copiar{
+        position: absolute;
+        right: 90px;
+    }
+
+
+}
+
+@media screen and (max-width:1489px){
+
+    html, body{
+        overflow: visible;
+    }
+
+    .nombre{
+        right: 100px;
+    }
+
+    .formulario{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .informacion{
+        position: absolute;
+        left: 10px;
+        bottom: 140px;
+    }
+    .emanuel{
+        position: absolute;
+        left: 10px;
+        bottom: 125px;
+    }
+    .botones{
+        position: absolute;
+        left: 10px;
+        width: auto;
+        margin: 0 auto;
+        margin-right: ;
+    }
+
+    .encriptar, .desencriptar{
+        width: auto;
+    }
+
+    .rectangulo{
+        display: inline-block;
+        position: absolute;
+        top: 753px;
+        left: 0;
+        width: 99%;
+    }
+
+    .boton-copiar{
+        position: absolute;
+        right: 580px;
+    }
+
+
+}

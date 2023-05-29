@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--<link rel="stylesheet" href="styles/reset.css">-->
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400;1,500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/styles.css">
+        <title>Encriptador de texto</title>
+    </head>
+    <body>
+        <header class="contenedor">
+            <img src="img/icono-header.png" alt="Icono header" class="imagen-contenedor">
+            <h1>Encriptador de texto</h1>
+            <div class="nombre">
+                <p>
+                    <span>e</span>
+                    <span>c</span>
+                    <span>v</span>
+                </p>
+            </div>
+        </header>
+        <main class="main">
+            <section class="formulario" id="formulario">
+                <form>
+                    <textarea class="text-area" cols="100%" rows="30" placeholder="Inserte texto aquí"></textarea>
+                    <div>
+                        <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+                    </div>
+                    <div class="botones">
+                        <input type="button" value="Encriptar" class="encriptar" onclick="botonEncriptar()">
+                        <input type="button" value="Desencriptar" class="desencriptar" onclick="botonDesencriptar()">
+                    </div>
+                    <h6 class="emanuel">Emanuel Colorado Velásquez - G5</h6>
+                </form>
+            </section>
+            <section class="mostrarTexto" id="mostrarTexto">
+                    <div class="rectangulo" id="rectangulo">
+                        <textarea class="mensaje" cols="20" rows="10"></textarea>
+                        <input type="button" value="Copiar" class="boton-copiar" onclick="copiarTexto()">
+                    </div>
+                    
+            </section>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
